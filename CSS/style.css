@@ -1,0 +1,65 @@
+body{
+    margin: 0%;
+    background-color: wheat;
+}
+
+
+/* 导航栏 */
+.one{
+    padding: 0 10px;
+    background-color: aqua;
+}
+.one a{
+    text-decoration: none;
+}
+#toop{
+    display: flex;
+    max-width: 1100px;
+    min-width: 900px;
+    margin: 0% auto;
+}
+#toop table{
+    flex-grow: 1;
+    margin: auto 0;
+}
+#toop td{
+    float: right;
+    text-align:right;
+    width: 50px;
+}
+
+
+/* 内容和侧边 */
+.two{
+    display: flex;
+    max-width: 1100px;
+    min-width: 900px;
+    margin: 0% auto;
+    padding: 10px;
+    height: 600px;
+}
+#content{
+    flex-grow: 1;
+    min-width: 640px;
+    margin-right:10px; 
+    background-color: aliceblue;
+   
+}
+#sidebar{
+    min-width: 250px;
+    background-color: aliceblue;
+}
+
+
+/* 页脚 */
+.three{
+    padding: 0 10px;
+    background-color: lightgray;
+}
+#footer{
+    display: flex;
+    max-width: 1100px;
+    min-width: 900px;
+    margin: 0% auto;
+    height: 50px;
+}
